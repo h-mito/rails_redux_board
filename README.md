@@ -18,14 +18,14 @@ Things you may want to cover:
 
 * インストール方法
 
-　- git clone https://github.com/h-mito/rails_redux_board
-  - bundle install
-  - npm install
-  - DB作成、Seed導入
-      - rake db:migrate
-      - rake db:seed
+  　　- git clone https://github.com/h-mito/rails_redux_board
+  　　- bundle install
+  　　- npm install
+  　　- DB作成、Seed導入
+      　　- rake db:migrate
+      　　- rake db:seed
 
-  - 動作確認
+* 動作確認
   　  - rails s
       - http://localhost:3000/board/index
 
