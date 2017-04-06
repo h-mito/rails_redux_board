@@ -17,6 +17,7 @@ Things you may want to cover:
  node.js,npm
 
 * インストール方法
+
 　- git clone
        git clone https://github.com/h-mito/rails_redux_board
   - bundle install
