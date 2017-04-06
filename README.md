@@ -25,8 +25,12 @@ Things you may want to cover:
     - rake db:seed
 
 * 動作確認
-  　  - rails s
-      - http://localhost:3000/board/index
+  - rails s
+  - http://localhost:3000/board/index
+
+* Homepage
+  - Rails 5.0 と React、Redux、Ajaxを組み合わせて掲示板アプリを作ってみよう
+  - http://beautifulajax.dip.jp/?p=1427
 
 ![Reduxで掲示板](http://beautifulajax.dip.jp/wp-content/uploads/2017/04/redux-30-806x393.png "あああああ")
 * ...
