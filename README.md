@@ -11,19 +11,18 @@ Rails＋React+Redux＋Ajaxの組み合わせで必要なノウハウはだいた
 Things you may want to cover:
 
 * Ruby version
- 2.3 or higher
+  2.3 or higher
 
 * System dependencies
- node.js,npm
+  node.js,npm
 
 * インストール方法
-
-  　　- git clone https://github.com/h-mito/rails_redux_board
-  　　- bundle install
-  　　- npm install
-  　　- DB作成、Seed導入
-      　　- rake db:migrate
-      　　- rake db:seed
+  - git clone https://github.com/h-mito/rails_redux_board
+  - bundle install
+  - npm install
+  - DB作成、Seed導入
+    - rake db:migrate
+    - rake db:seed
 
 * 動作確認
   　  - rails s
