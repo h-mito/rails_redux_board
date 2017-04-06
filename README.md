@@ -27,7 +27,7 @@ Things you may want to cover:
 
   - 動作確認
   　  - rails s
-      http://localhost:3000/board/index
+      - http://localhost:3000/board/index
 
-
+![Reduxで掲示板](http://beautifulajax.dip.jp/wp-content/uploads/2017/04/redux-30-806x393.png "あああああ")
 * ...
