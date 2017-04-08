@@ -3,9 +3,9 @@ import {connect} from "react-redux"
 import CommentAdd from "../components/CommentAdd"
 import {comment_add, comment_read} from "../actions/index"
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
   return {
-    users: state.users,
+    users: ownProps.users,
     sel_board: state.sel_board
   }
 }

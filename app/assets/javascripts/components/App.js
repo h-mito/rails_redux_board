@@ -3,14 +3,14 @@ import CBoardList from "../containers/CBoardList"
 import CCommentAdd from "../containers/CCommentAdd"
 import CCommentList from "../containers/CCommentList"
 
-const App = ({}) => {
+const App = ({boards, users}) => {
   return (
     <div>
       <div className="left-side">
-        <CBoardList />
+        <CBoardList boards={boards} />
       </div>
       <div className="right-side">
-        <CCommentAdd />
+        <CCommentAdd users={users} />
         <CCommentList />
 
       </div>

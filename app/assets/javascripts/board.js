@@ -8,8 +8,8 @@ import App from './components/App'
 
 const Board = ({boards, users}) => {
   return (
-    <Provider store={createStore(rootReducer, {boards: boards, users: users})}>
-      <App />
+    <Provider store={createStore(rootReducer)}>
+      <App boards={boards} users={users} />
     </Provider>
   )
 }

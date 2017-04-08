@@ -3,9 +3,9 @@ import {connect} from "react-redux"
 import {board_select, comment_read} from "../actions/index"
 import BoardList from "../components/BoardList"
 
-const mapStateToProps = (state) =>{
+const mapStateToProps = (state, ownProps) =>{
   return {
-    datas: state.boards,
+    datas: ownProps.boards,
     selb: state.sel_board
   }
 }
